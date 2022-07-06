@@ -21,7 +21,7 @@ const main = (
                             <Link to={'/home'} className ={'linkOpts'}>HOME</Link>
                         </li>
                         <li className={'linkText'}>
-                            <Link to={'/about'} className ={'linkOpts'}>ABOUT</Link>
+                            <Link to={'/about'} className ={'linkOpts'}>ABOUT PAGE</Link>
                         </li>
                         <li className={'linkText'}>
                             <Link to={'/achievements'} className ={'linkOpts'}>RESUME</Link>
