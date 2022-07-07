@@ -7,6 +7,8 @@ import {
     Route,
     Link
 } from "react-router-dom";
+import Home from "./components/home"
+import Resume from "./components/resume"
 
 const main = (
     <html>
@@ -18,53 +20,25 @@ const main = (
                     </div>
                     <div className={'links'}>
                         <li className={'linkText'}>
-                            <Link to={'/home'} className ={'linkOpts'}>HOME</Link>
+                            <Link to={'/'} className ={'linkOpts'}>HOME</Link>
                         </li>
-                        <li className={'linkText'}>
+                        {/* <li className={'linkText'}>
                             <Link to={'/about'} className ={'linkOpts'}>ABOUT PAGE</Link>
-                        </li>
+                        </li> */}
                         <li className={'linkText'}>
                             <Link to={'/achievements'} className ={'linkOpts'}>RESUME</Link>
                         </li>
                     </div>
                 </header>
             <Switch>
-                <Route path={'/home'}>
-                    <div className={'homeInfo'}>
-                        <div className={'homePieceMain'}>
-                            <div>
-                                <img className={'homePic'} src={'https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png'}/>
-                            </div>
-                            <div className={'homePiece'}>
-                                <h1> Scott Schaefer </h1>
-                                <p>
-                                    I am an aspiring programmer and software engineer studying Computer Science at the
-                                    Georgia Institute of Technology.
-                                </p>
-                                <p>
-                                    Currently, I am a third year with a planned graduation
-                                    date of Spring 2023 with threads of Intelligence and Info Internetworks.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={'linkBoxes'}>
-                        <div className={'linkBox'}>
-                            sschaefer30@gatech.edu
-                        </div>
-                        <div className={'linkBox'}>
-                            github
-                        </div>
-                        <div className={'linkBox'}>
-                            linkedin
-                        </div>
-                    </div>
+                <Route exact path={'/'}>
+                    <Home />
                 </Route>
                 <Route path={'/about'}>
-                    hey UwU
+                    Thanks
                 </Route>
                 <Route path={'/achievements'}>
-                    hey dear
+                    <Resume />
                 </Route>
             </Switch>
             </body>

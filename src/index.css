@@ -33,7 +33,6 @@ a.linkOpts {
     color: white;
 }
 a.linkOpts:hover {
-    background-color: darkgray;
     padding-bottom: 1px;
     color: gold;
 }
@@ -74,10 +73,10 @@ a.linkOpts:hover {
     display: flex;
     justify-content: space-evenly;
 }
-.linkBox {
+/* .linkBox {
     background-color: gray;
     padding: 50px;
     border-radius: 10px;
     color: white;
-}
+} */
 
