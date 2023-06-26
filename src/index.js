@@ -15,18 +15,18 @@ const main = (
         <Router>
             <body>
                 <header>
-                    <div className={'name'}>
+                    {/* <div className={'name'}>
                         SCOTT SCHAEFER
-                    </div>
+                    </div> */}
                     <div className={'links'}>
                         <li className={'linkText'}>
-                            <Link to={'/'} className ={'linkOpts'}>HOME</Link>
+                            <Link to={'/'} className ={'linkOpts'}>Home</Link>
                         </li>
                         {/* <li className={'linkText'}>
                             <Link to={'/about'} className ={'linkOpts'}>ABOUT PAGE</Link>
                         </li> */}
                         <li className={'linkText'}>
-                            <Link to={'/achievements'} className ={'linkOpts'}>RESUME</Link>
+                            <Link to={'/achievements'} className ={'linkOpts'}>Resume</Link>
                         </li>
                     </div>
                 </header>

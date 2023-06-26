@@ -6,23 +6,34 @@ export default function Home() {
         <div>
             <div className={'homeInfo'}>
                 <div className={'homePieceMain'}>
-                    <div>
+                    {/* <div>
                         <img className={'homePic'} src={'https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png'}/>
-                    </div>
+                    </div> */}
                     <div className={'homePiece'}>
                         <h1> Scott Schaefer </h1>
                         <p>
-                            I am an aspiring programmer and software engineer studying Computer Science at the
-                            Georgia Institute of Technology.
+                            Software engineer with a passion for learning and improvement.
                         </p>
                         <p>
-                            Currently, I am a third year with a planned graduation
-                            date of Spring 2023 with threads of Intelligence and Info Internetworks.
+                            Graduated from Georgia Tech with a BS in Computer Science, Spring 2023. 
                         </p>
+                        <p>
+                            Incoming software engineering associate at Capital One.
+                        </p>
+                        <a href="https://github.com/sschaefer30" target="_blank">
+                            <p>
+                                <b>Github</b>
+                            </p>
+                        </a>
+                        <a href="https://www.linkedin.com/in/scott-schaefer-359448192/" target="_blank">
+                            <p>
+                                <b>LinkedIn</b>
+                            </p>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div className={'linkBoxes'}>
+            {/* <div className={'linkBoxes'}>
                 <div className={'linkBox'}>
                     <a href="https://github.com/sschaefer30" target="_blank">
                         <img src={GithubIMG} width="200px"/>
@@ -34,7 +45,7 @@ export default function Home() {
                     </a>
                 </div>
             
-            </div>
+            </div> */}
         </div>
     )
 }
