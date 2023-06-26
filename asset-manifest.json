@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec9e2195.chunk.css",
-    "main.js": "/static/js/main.b511d7e1.chunk.js",
-    "main.js.map": "/static/js/main.b511d7e1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6161bbc9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6161bbc9.js.map",
-    "static/js/2.d8cfc826.chunk.js": "/static/js/2.d8cfc826.chunk.js",
-    "static/js/2.d8cfc826.chunk.js.map": "/static/js/2.d8cfc826.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ec9e2195.chunk.css.map": "/static/css/main.ec9e2195.chunk.css.map",
-    "static/js/2.d8cfc826.chunk.js.LICENSE.txt": "/static/js/2.d8cfc826.chunk.js.LICENSE.txt",
-    "static/media/GitHub_Logo.746ec8f0.png": "/static/media/GitHub_Logo.746ec8f0.png",
-    "static/media/myResume2022.96159e3d.pdf": "/static/media/myResume2022.96159e3d.pdf"
+    "main.css": "/my-app/static/css/main.cb54cde8.css",
+    "main.js": "/my-app/static/js/main.be2682f5.js",
+    "static/media/myResume2023.pdf": "/my-app/static/media/myResume2023.6900a868bd092b21367a.pdf",
+    "static/media/GitHub_Logo.png": "/my-app/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
+    "index.html": "/my-app/index.html",
+    "main.cb54cde8.css.map": "/my-app/static/css/main.cb54cde8.css.map",
+    "main.be2682f5.js.map": "/my-app/static/js/main.be2682f5.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6161bbc9.js",
-    "static/js/2.d8cfc826.chunk.js",
-    "static/css/main.ec9e2195.chunk.css",
-    "static/js/main.b511d7e1.chunk.js"
+    "static/css/main.cb54cde8.css",
+    "static/js/main.be2682f5.js"
   ]
 }
